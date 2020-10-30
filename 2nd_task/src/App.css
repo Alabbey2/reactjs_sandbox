@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -35,31 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-} */
-.box {
-  background-color: orange;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
-  padding: 1rem;
-  margin: 1rem;
-  border: 5px solid #333;
-  box-shadow: 0 0 5px;
-  text-align: center;
-  border-radius: 5px;
-}
-.box:hover {
-  background-color: rgb(196, 135, 193);
-  border: none;
-  transform: translateX(50%);
-  transition: all 5s;
-}
-.App {
-  background-color: pink;
-  max-width: 1000px;
-  margin: 0 auto;
-  height: 75vh;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }

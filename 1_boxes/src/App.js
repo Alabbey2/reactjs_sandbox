@@ -13,10 +13,24 @@ function Box (props) {
         <p>{props.title}</p>
         <p>{props.age}</p>
         <p>{props.phone}</p>
+        
+    </div>
+  )
+}
+function Pic (props) {
+  return (
+    <div className="box">
+        {personalGreeting}
+        <h1>{props.name}</h1>
+        <p>{props.title}</p>
+        <p>{props.age}</p>
+        <p>{props.phone}</p>
+
     </div>
   )
 }
 function App() {
+  // document.title="world"
   return (
     <div className="App">
     <h1>{greeting} </h1>
@@ -25,6 +39,7 @@ function App() {
     <Box name="Paul" title="Wrestler" age="18" phone="122346" />
     <Box name="Lola" title="Swimmer" age="39" phone="122346" />
     <Box name="Eni" title="Scientist" age="25" phone="122346" />
+    <Box name="Clem" title="Chairman"/>
     
        
     </div>

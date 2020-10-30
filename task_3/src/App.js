@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+
+ 
+
 class App extends Component {
   state = {
     likes: 0,
@@ -21,6 +24,10 @@ resetHandler = () =>{
   render() {
     return (
       <div>
+        
+        <h2>Counter</h2>
+        <p>Date</p>
+        
         <h1>Total likes:{this.state.likes}</h1>
         <button onClick={this.addHandler}>Add one</button>,
         <button onClick={this.removeHandler}>Remove one</button>,
