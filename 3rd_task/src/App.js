@@ -1,20 +1,43 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from './Header'
+import Footer from './Footer'
 
 
 
 class App extends Component {
   state = {
     likes: 0,
+    date:""
   };
-
+  bgColor = (likes) => {
+    if (likes%2===0){
+      return{
+        backgroundColor: "red"
+      }
+    }
+    else{
+      return{
+        backgroundColor: "green"
+      }
+    }
+  } 
   addHandler = () => {
+    let {likes} = this.state;
+    likes = likes + 1;
     // console.log('addHandler was clicked');
-    this.setState({likes:this.state.likes + 1});
+    this.setState({likes});
+    
   }
   removeHandler = () => {
+    let {likes} = this.state;
+    if (likes > 0) {
+      likes = likes - 1;
+      this.setState({likes});
+    }
+    
     // console.log('removeHandler was clicked');
-    this.setState({likes:this.state.likes - 1});
+    
   }
   resetHandler = () => {
     // console.log('resetHandler was clicked');
@@ -22,14 +45,19 @@ class App extends Component {
   }
 
   render() {
+    const {likes} = this.state;
     return (
       
       <div>
-        <header />
-        <h1 className="likes">Total Likes:{this.state.likes}</h1>
+        <Header />
+        <div style={this.bgColor(likes)}>
+        
+        <h1 className="likes">Total Likes:{likes}</h1>
         <button onClick={this.addHandler}>Add like</button>
         <button onClick={this.removeHandler}>Remove like</button>
         <button onClick={this.resetHandler}>Reset</button>
+      </div>
+      <Footer />
       </div>
     );
   }
