@@ -1,9 +1,12 @@
 import React from 'react';
 import './Animal.css';
 
-const welcomeGreetings =(name) => {
-    // console.log(name);
-    alert('Hello, I am a beautiful dog. It is nice to meet you!');
+const welcomeGreetings = (name) => {
+    
+    //alert('Hello, I am a beautiful dog. It is nice to meet you!');
+    // using template literals
+    alert(`Hello, I am a ${name}. It is nice to meet you!`);
+
 };
 
 const Animal = (props) => {

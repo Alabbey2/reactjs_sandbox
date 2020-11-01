@@ -1,10 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Animal from './Components/Animal';
+import "./App.css";
 
-const App = () => {
-  return (
-    
-    <div className="component-cards">
+class App extends Component {
+  render () {
+    return (
+      <div className="component-cards">
       
       <Animal name="Dog" image="https://source.unsplash.com/weekly?/dog" />
 
@@ -14,7 +15,10 @@ const App = () => {
 
       
     </div>
-  );
-};
+    );
+  }
+}
+
+
 
 export default App;
