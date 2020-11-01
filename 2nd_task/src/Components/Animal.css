@@ -1,0 +1,27 @@
+.animalCard img {
+    width: 400px;
+    /* height: 200px; */
+    display: block;
+        
+}
+.animalCard button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ec4c4c;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.animalCard {
+    
+    padding: 1rem;
+    box-shadow: 0 0 3px #ec4c4c;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    margin-top: 2rem;
+}
+.component-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem
+}    
