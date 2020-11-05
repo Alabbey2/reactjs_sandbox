@@ -20,7 +20,7 @@ class App extends Component {
     ],
   };
 
-  pace = 1500;
+  pace = 3000;
   timer = undefined;
 
   clickHandler = (id) => {
