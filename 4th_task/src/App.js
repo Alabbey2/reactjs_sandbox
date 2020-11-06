@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
-import Article from './Components/Article';
+import './App.css'
+// import Article from './Components/Article';
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="header-part">
         <Header />
-        <Footer />
         <Main />
-        <Article />
+        <Footer />
       </div>
     );
   }

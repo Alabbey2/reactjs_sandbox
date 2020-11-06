@@ -3,7 +3,7 @@ import Article from './Article';
 
 const Main = () => {
     return (
-        <div>
+        <div className="main">
             <Article />  
         </div>
     );

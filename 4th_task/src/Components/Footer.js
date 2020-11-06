@@ -2,8 +2,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-          <h1>Foo</h1>  
+        <div className="footer">
+          <p>Rautatieläisenkatu 5, 00520 Helsinki | Tel. 0914890200 | info@bc.fi</p> 
+          
         </div>
     );
 };
