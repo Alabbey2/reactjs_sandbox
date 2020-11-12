@@ -48,10 +48,9 @@ class App extends Component {
     const {likes} = this.state;
     return (
       
-      <div>
+      <div className="main">
         <Header />
-        <div style={this.bgColor(likes)}>
-        
+        <div className="wrapper" style={this.bgColor(likes)}>
         <h1 className="likes">Total Likes:{likes}</h1>
         <button onClick={this.addHandler}>Add like</button>
         <button onClick={this.removeHandler}>Remove like</button>

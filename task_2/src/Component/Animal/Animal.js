@@ -17,7 +17,7 @@ function Animal (props) {
         </div>
     )
 }
-//"https://source.unsplash.com/200x200/?lion"
+//"https://source.unsplash.com/200x200/?lion" 
 //Hello, I am a Horse and glad to meet you!
 // function Animal () {
 //     return (

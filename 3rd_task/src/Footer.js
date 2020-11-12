@@ -6,7 +6,7 @@ export default class Footer extends Component {
     }
     date(){
         const date = new Date();
-        return '©' + date.getFullYear() + ' All rights reserved';
+        return '©' + date.getFullYear() + ' All rights reserved Abiodun Alabi';
     }
     render() {
         

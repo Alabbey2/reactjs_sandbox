@@ -6,9 +6,9 @@ import Animal from './Component/Animal/Animal';
 class App extends Component {
   state = {
   animals: [
-    { name: "Lion", img:"https://source.unsplash.com/200x200/?lion"},
-     {name: "Tiger", img:"https://source.unsplash.com/200x200/?tiger"},
-    { name: "Dog", img:"https://source.unsplash.com/200x200/?dog"},
+    { name: "Lion", img:"https://source.unsplash.com/300x200/?lion"},
+     {name: "Tiger", img:"https://source.unsplash.com/300x200/?tiger"},
+    { name: "Dog", img:"https://source.unsplash.com/300x200/?dog"},
   ],
 };
 
