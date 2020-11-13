@@ -24,6 +24,18 @@ class Form extends Component {
                         <label htmlFor="lastname">Last Name </label>
                         <input type="text" value={this.state.value} onChange={this.changeValueHandler}/>
                     </div>
+                    <div class="phone">
+                        <label htmlFor="lastname">Phone Number </label>
+                        <input type="text" value={this.state.value} onChange={this.changeValueHandler}/>
+                    </div>
+                    <div class="message">
+                        <label htmlFor="message">Message </label>
+                        <textarea type="text" value={this.state.value} onChange={this.changeValueHandler}/>
+                    </div>
+                    <div class="role">
+                        <label htmlFor="role">Role </label>
+                        <select type="text" value={this.state.value} onChange={this.changeValueHandler}/>
+                    </div>
                     
                 </form>    
                 
