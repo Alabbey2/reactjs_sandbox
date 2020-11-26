@@ -1,0 +1,8 @@
+.view {
+    background-color: #f5f4f6;
+    padding: 20px;
+}
+#firstname, #lastname, #phoneNumber, #message, #role {
+    padding: 10px;
+    box-shadow: 0 0 1px;
+}
