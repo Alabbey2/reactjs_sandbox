@@ -1,11 +1,9 @@
 import React from "react";
-import Posts from '../Posts/Posts';
-import Blog from "../Posts/Blog";
+import Posts from "../Posts/Posts"
 
 const Main = () => {
   return <main>
-    <Posts />
-    <Blog />
+      <Posts />
   </main>;
 };
 
