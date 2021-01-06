@@ -3,7 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/*font-family: 'Poppins', sans-serif;*/
 header {
   /* background-color: #1d1d1d; */
   background-color: #64DB8F;
@@ -21,10 +24,13 @@ main {
 nav ul li {
   display: inline-block;
   padding: 1rem;
+  
 }
 
 a {
   color: white;
+  text-decoration: none;
+  padding-right: 1rem;
 }
 
 .BlogCard {
