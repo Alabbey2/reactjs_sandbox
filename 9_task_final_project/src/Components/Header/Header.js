@@ -1,12 +1,13 @@
 import React from "react";
-import Brand from "./Brand";
-import Nav from "./Nav";
+import NavigationBar from "./NavigationBar";
+// import Brand from "./Brand";
+// import Nav from "./NavigationBar";
 
 const Header = () => {
   return (
     <header>
-      <Brand />
-      <Nav />
+      {/* <Brand /> */}
+      <NavigationBar />
     </header>
   );
 };
