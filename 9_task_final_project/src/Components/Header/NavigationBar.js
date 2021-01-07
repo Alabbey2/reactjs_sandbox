@@ -6,6 +6,7 @@ import {Nav, Navbar} from 'react-bootstrap';
 const Styles = styled.div`
     .navbar {
         background-color: #64DB8F;
+        width: 1200px;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
