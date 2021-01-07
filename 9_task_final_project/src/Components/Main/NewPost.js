@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { Alert } from 'react-bootstrap';
+
 
 const NewPost = () => {
   const [newPost, setNewPost] = useState({
