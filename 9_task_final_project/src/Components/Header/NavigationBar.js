@@ -7,13 +7,14 @@ const Styles = styled.div`
     .navbar {
         background-color: #64DB8F;
         width: 1200px;
+        padding: 2rem;
+        margin-bottom: 1rem;
     }
 
     .navbar-brand, .navbar-nav .nav-link {
-        color: #333;
-
+        color: #fff;
         &:hover {
-            color: #fff;
+        color: #fff;
         }
     }
 `;
@@ -24,7 +25,7 @@ const NavigationBar = () => {
 
         <Styles>
             <Navbar expand="lg">
-                <Navbar.Brand href="/">Wazoobia</Navbar.Brand>
+                <Navbar.Brand href="/">WZB</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">

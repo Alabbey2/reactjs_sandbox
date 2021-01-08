@@ -30,9 +30,18 @@ const Blog = () => {
   return (
     <>
       <Switch>
-        <Route path={`${path}/:id`}>
-          <SinglePost />
-        </Route>
+        <Route path={`${path}/:id`}
+        render={data => {
+          
+          const {match} = data, {params} = match, {id} = params, key=parseInt(id);
+          
+          if (key > 0) {
+            return <SinglePost />
+          }
+          console.log(id);
+            return <div>Page not found!</div>
+          
+        }}/>
         <Route path={path}>{PostList}</Route>
       </Switch>
     </>

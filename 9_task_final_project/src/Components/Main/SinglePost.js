@@ -4,7 +4,8 @@ import axios from 'axios'
 
 const SinglePost = () => {
     const [post, setPost] = useState();
-    let { id } = useParams();
+    let { id } = useParams(), postData = undefined;
+    
 
     useEffect(()=> {
         if (!post) {
@@ -12,7 +13,7 @@ const SinglePost = () => {
         }
     });
 
-    let postData = undefined;
+    
 
     if (id) {
         postData = <h1>Loading.....</h1>
@@ -24,7 +25,9 @@ const SinglePost = () => {
             </div>
         )
     }
-
+    else {
+        postData = <div>{`Blog with the id of ${id} is not found!`} </div>;
+    }
     return postData;
     
 };
