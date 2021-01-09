@@ -10,6 +10,7 @@ const NewPost = () => {
   });
 
   const changeValueHandler = (e) => {
+    
     setNewPost({
       ...newPost,
       [e.target.name]: e.target.value,
@@ -18,10 +19,22 @@ const NewPost = () => {
 
   const addPostHandler = (e) => {
     e.preventDefault();
+    const {title, author, desc} = newPost;
+    
+    if (title !== "" && author !== "" && desc !=="") {
+      axios.post("http://localhost:3001/posts", newPost).then((response) => {
+      
+      const {data} = response, {id} = data;
 
-    axios.post("http://localhost:3001/posts", newPost).then((response) => {
-      console.log(response.data);
+      if (id && id > 0) {
+        alert("success");
+      }
     });
+    }
+    else {
+      alert("incomplete or missing data");
+    }
+    
   };
 
   return (

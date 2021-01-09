@@ -10,4 +10,12 @@ body {
 }
 img {
   width: 100%;
+  margin-bottom: 1rem;
+}
+a {
+  color: white;
+  
+}
+.nav {
+  background-color: red;
 }

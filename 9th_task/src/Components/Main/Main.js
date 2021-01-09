@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home";
 import Blog from "./Blog";
 import NewPost from "./NewPost";
-import Nothing from "./Nothing";
+// import Nothing from "./Nothing";
 
 import { Switch, Route } from "react-router-dom";
 

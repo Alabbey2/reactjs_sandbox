@@ -3,23 +3,23 @@ import Home from "./Home";
 import Blog from "./Blog";
 import NewPost from "./NewPost";
 import Nothing from './Nothing';
-// import styled from 'styled-components'
+import styled from 'styled-components';
 import { Switch, Route } from "react-router-dom";
 
-// const Section = styled.main`
-//   height: 100vh;  
-// `;
+const Section = styled.main`
+  height: 100vh;  
+`;
 
 const Main = () => {
   return (
-    // <Section>
+    <Section>
       <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/blog" component={Blog}/>
         <Route path="/new_post" component={NewPost}/>
         <Route component={Nothing} />
       </Switch>
-    // </Section>
+    </Section>
   );
 };
 

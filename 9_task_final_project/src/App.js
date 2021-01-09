@@ -5,7 +5,7 @@ import './App.css';
 import Layout from './Components/layout/Layout';
 import styled from 'styled-components';
 import {BrowserRouter as Router} from "react-router-dom";
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 
 
 const Section = styled.div`
@@ -23,7 +23,7 @@ const App = () => {
           <Section>
             <Main/> 
           </Section>
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       </Layout>
     

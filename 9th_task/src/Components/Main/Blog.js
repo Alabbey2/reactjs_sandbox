@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import BlogCard from "./BlogCard";
 import SinglePost from "./SinglePost";
-import { useRouteMatch, Route, Switch } from "react-router-dom";
+import {useRouteMatch, Route, Switch} from "react-router-dom";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
@@ -20,6 +20,7 @@ const Blog = () => {
         key={p.id}
         title={p.title}
         author={p.author}
+        // desc={p.desc}
         img={p.img}
         link={`${url}/${p.id}`}
       />
@@ -29,9 +30,18 @@ const Blog = () => {
   return (
     <>
       <Switch>
-        <Route path={`${path}/:id`}>
-          <SinglePost />
-        </Route>
+        <Route path={`${path}/:id`}
+        render={data => {
+          
+          const {match} = data, {params} = match, {id} = params, key=parseInt(id);
+          
+          if (key > 0) {
+            return <SinglePost />
+          }
+          console.log(id);
+            return <div>Page not found!</div>
+          
+        }}/>
         <Route path={path}>{PostList}</Route>
       </Switch>
     </>
