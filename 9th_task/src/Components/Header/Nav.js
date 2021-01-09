@@ -12,7 +12,7 @@ const Nav = () => {
                     </Button>
                 </li>
                 <li>
-                    <Button onClick={()=>alert('Not Found')} variant="contained" color="secondary">
+                    <Button variant="contained" color="secondary">
                         <Link to="/blog" >Blog</Link>
                     </Button>
                 </li>
@@ -21,11 +21,11 @@ const Nav = () => {
                         <Link to="/new_post" >New Post</Link>
                     </Button>
                 </li>
-                <li>
+                {/* <li>
                     <Button variant="contained" color="secondary">
                         <Link to="/nothing" >Nothing</Link>
                     </Button>
-                </li>
+                </li> */}
                 
                 
             </ul>

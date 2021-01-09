@@ -1,17 +1,13 @@
 import React from "react";
 import Nav from "./Nav";
+import BrandName from './BrandName';
 
 
-function Brand (props) {
-  
-  return (
-  <h2>{props.name}</h2>
-  )
-}
+
 const Header = () => {
   return (
     <header>
-      <Brand name="Wazoobia"/>
+      <BrandName/>
       <Nav />
     </header>
   );
