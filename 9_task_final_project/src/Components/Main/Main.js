@@ -3,7 +3,7 @@ import Home from "./Home";
 import Blog from "./Blog";
 import NewPost from "./NewPost";
 import Nothing from './Nothing';
-// import styled from 'styled-components';
+// import styled from 'styled-components'
 import { Switch, Route } from "react-router-dom";
 
 // const Section = styled.main`
