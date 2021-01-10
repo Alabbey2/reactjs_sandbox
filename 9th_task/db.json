@@ -9,14 +9,14 @@
     },
     {
       "id": 2,
-      "title": "Interesting foods",
+      "title": "Interesting foods from across the country",
       "author": "Sofia",
       "desc": "Morbi non venenatis diam. Praesent ante diam, efficitur sit amet dui at, ultrices venenatis ex. Mauris tristique, nunc eu volutpat pulvinar, magna neque tempor quam, vel sodales dolor risus at massa.",
       "img": "https://source.unsplash.com/1600x900/?food"
     },
     {
       "id": 3,
-      "title": "Lifestyle and Traveling",
+      "title": "Lifestyle and Traveling (from North to South",
       "author": "Jane",
       "desc": "Quisque ut libero porttitor, aliquam felis ac, molestie arcu. Pellentesque sit amet tortor efficitur tellus pharetra ultrices. Quisque quis pretium massa. Duis consectetur porttitor pellentesque.",
       "img": "https://source.unsplash.com/1600x900/?travel"
@@ -29,14 +29,14 @@
       "img": "https://source.unsplash.com/1600x900/?school"
     },
     {
-      "title": "Sports",
+      "title": "Sports: Sunderland still stuck in lower division",
       "author": "Sofia",
       "desc": "Quisque malesuada felis quam, eget egestas nisi pharetra sed. Quisque vulputate mauris placerat eros finibus rhoncus malesuada in tellus. Ut accumsan risus quam, in fermentum lectus suscipit non. Phasellus in semper nisl.",
-      "img": "https://source.unsplash.com/1600x900/?sports",
+      "img": "https://source.unsplash.com/1600x900/?soccer",
       "id": 5
     },
     {
-      "title": "Politics",
+      "title": "Politics: Quality leadership lacking in the world now",
       "author": "Paul",
       "desc": "Quisque malesuada felis quam, eget egestas nisi pharetra sed. Quisque vulputate mauris placerat eros finibus rhoncus malesuada in tellus. Ut accumsan risus quam, in fermentum lectus suscipit non. Phasellus in semper nisl.",
       "img": "https://source.unsplash.com/1600x900/?people",
