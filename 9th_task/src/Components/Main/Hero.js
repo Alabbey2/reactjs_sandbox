@@ -7,7 +7,7 @@ width: inherit;
 height: 500px;
 color: white;
 background-image: url("https://source.unsplash.com/1600x900/?sky");
-margin: 1rem;
+margin: 2rem 0;
 `;
 
 const HeroTitle = styled.h2`

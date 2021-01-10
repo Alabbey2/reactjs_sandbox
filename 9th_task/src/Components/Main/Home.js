@@ -1,24 +1,49 @@
 import React from "react";
 import Hero from './Hero';
 import styled from 'styled-components';
-
+import Button from '@material-ui/core/Button'
 
 const Section = styled.p`
-
+  padding: 1rem;
+  color: #333;
+  width: 550px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
 `;
 
 const Home = () => {
   return (
     <div>
     <Hero />
+    <Button variant="outlined" color="secondary">
     <Section>
-      All that glitters is not gold. Leadership is about service. Not opulence neither is itoppression. Think about your legacy all the time in any position you find yourself because that is what we all will be remembered for
+      Inciteful
+        
+    </Section>
+    </Button>
+
+    <Button variant="outlined" color="secondary">
+    <Section>
+      Simple Language
 
     </Section>
+    </Button>
+
+    <Button variant="outlined" color="secondary">
     <Section>
-      All that glitters is not gold. Leadership is about service. Not opulence neither is itoppression. Think about your legacy all the time in any position you find yourself because that is what we all will be remembered for
+      Analytic
 
     </Section>
+    </Button>
+    <Button variant="outlined" color="secondary">
+    <Section>
+      Educative
+    </Section>
+    </Button>
+    
     </div>
   );
 };
