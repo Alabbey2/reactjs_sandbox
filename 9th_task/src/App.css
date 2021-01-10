@@ -13,7 +13,10 @@ a {
   text-decoration: none;
   font-variant: small-caps;
 }
-
+.formgroup {
+  margin: 1rem;
+}
+/* 
 
 
 
@@ -61,4 +64,4 @@ a {
   margin: 1rem 0;
   cursor: pointer;
 
-}
+} */
