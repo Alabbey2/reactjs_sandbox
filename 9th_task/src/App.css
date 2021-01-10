@@ -13,9 +13,7 @@ a {
   text-decoration: none;
   font-variant: small-caps;
 }
-.formgroup {
-  margin: 1rem;
-}
+
 /* 
 
 
@@ -65,3 +63,42 @@ a {
   cursor: pointer;
 
 } */
+.postData-content {
+  overflow: hidden;
+}
+.postData-content h1, 
+.postData-content h3 {
+  padding: 10px 0;
+}
+.postData-content img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.btn-wrapper .btn {
+  margin: 10px;
+  width: calc(50% - 20px);
+  height: 300px;
+  border: 1px solid #333;
+  transition: all 250ms ease-in-out;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-wrapper .btn:hover {
+  
+  box-shadow: 0 0 5px #333;
+  
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.newPost {
+  min-height: 60vh;
+}

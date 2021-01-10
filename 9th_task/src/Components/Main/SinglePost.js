@@ -21,8 +21,11 @@ const SinglePost = () => {
   }
   if (post) {
       postData = (
-          <div>
-              {post.title} {post.author} {post.desc}
+          <div className="postData-content">
+              <h1>{post.title}</h1> 
+              <img src={post.img} alt="title"/>
+              <h4>Written by: {post.author}</h4>
+              <p>{post.desc}</p> 
           </div>
       )
   }

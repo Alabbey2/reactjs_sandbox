@@ -43,7 +43,7 @@ const Textarea = styled.textarea`
 const Button = styled.button`
 width: 200px;
 border: none;
-background-color: #02630d;
+background-color: #64DB8F;
 padding: 1rem;
 text-transform: uppercase;
 color: white; 
@@ -88,7 +88,7 @@ const NewPost = () => {
 
   return (
     <>
-      
+      <div>
       <FormTitle>Add new post</FormTitle>
       <Form>
       <form className="newPost" onSubmit={addPostHandler}>
@@ -134,11 +134,10 @@ const NewPost = () => {
             onChange={changeValueHandler}
           />
         </FormGroup>
-        <Button>
-        <button type="submit">Add new post</button>
-        </Button>
+        <Button type="submit">Add new post </Button>
       </form>
       </Form>
+      </div>
     </>
   );
 };

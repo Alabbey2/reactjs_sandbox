@@ -6,7 +6,7 @@ background-color: grey;
 width: inherit;
 height: 100vh;
 color: white;
-background-image: url("https://source.unsplash.com/1600x900/?blog,people");
+background-image: url("https://source.unsplash.com/1600x900/?forest");
 margin: 2rem 0;
 `;
 
