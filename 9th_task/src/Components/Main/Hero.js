@@ -4,9 +4,9 @@ import styled from 'styled-components';
 const HeroDiv = styled.div`
 background-color: grey;
 width: inherit;
-height: 500px;
+height: 100vh;
 color: white;
-background-image: url("https://source.unsplash.com/1600x900/?sky");
+background-image: url("https://source.unsplash.com/1600x900/?blog,people");
 margin: 2rem 0;
 `;
 

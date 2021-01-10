@@ -6,12 +6,13 @@ import Button from '@material-ui/core/Button'
 const Section = styled.p`
   padding: 1rem;
   color: #333;
-  width: 550px;
+  width: 565px;
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  
 `;
 
 const Home = () => {
