@@ -1,26 +1,38 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Button from '@material-ui/core/Button'
+import styled from 'styled-components';
+
+const Menu = styled.ul`
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+
+const MenuLi = styled.li`
+display: inline-block;
+  padding: 1rem;
+`;
 
 const Nav = () => {
     return (
       <nav>
-            <ul>
-                <li>
+            <Menu>
+                <MenuLi>
                     <Button variant="contained" color="secondary">
                         <Link to="/" >Home</Link>
                     </Button>
-                </li>
-                <li>
+                </MenuLi>
+                <MenuLi>
                     <Button variant="contained" color="secondary">
                         <Link to="/blog" >Blog</Link>
                     </Button>
-                </li>
-                <li>
+                </MenuLi>
+                <MenuLi>
                     <Button variant="contained" color="secondary">
                         <Link to="/new_post" >New Post</Link>
                     </Button>
-                </li>
+                </MenuLi>
                 {/* <li>
                     <Button variant="contained" color="secondary">
                         <Link to="/nothing" >Nothing</Link>
@@ -28,7 +40,7 @@ const Nav = () => {
                 </li> */}
                 
                 
-            </ul>
+            </Menu>
         </nav>
     );
 };
