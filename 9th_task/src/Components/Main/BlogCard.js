@@ -10,7 +10,10 @@ margin: 1rem;
 background: #eee;
 padding: 1rem;
 display: inline-block;
+box-shadow: 0 0 2px red;
+border-radius: 5px;
 `;
+
 const BlogCardImg= styled.img`
 width: 100%
 `;

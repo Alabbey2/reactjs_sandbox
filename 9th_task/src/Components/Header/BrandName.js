@@ -1,13 +1,20 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const BrandName = styled.h2`
+    text-transform: uppercase;
+`;
+const BrandMotto = styled.span``;
+
 
 function Brand() {
     return (
         <div className="brand-name">
-            <h2>Wazoobia</h2>
-            <span><em>our differences, our strength</em></span>
+            <BrandName>Wzb Blog</BrandName>
+            <BrandMotto><em>our differences, our strength</em></BrandMotto>
             
         </div>
     )
 }
 
-export default Brand
+export default Brand;
