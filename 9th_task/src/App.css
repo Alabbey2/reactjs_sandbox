@@ -52,6 +52,7 @@ a {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+  margin-top: 1rem;
 }
 
 .newPost {
@@ -59,8 +60,9 @@ a {
 }
 
 .carousel-item {
-  
+  width: inherit;
   height: 60vh;
+  margin: 2rem 0;
 }
 .carousel-caption h3 {
   font-size: 3rem;

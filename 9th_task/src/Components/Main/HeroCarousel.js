@@ -7,30 +7,30 @@ function HeroCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://source.unsplash.com/600x400/?nature,water"
+      src="https://source.unsplash.com/600x400/?black"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>Lasting positive legacy</h3>
-      <p>"Conscience is an opened wound, only the truth can heal it"</p>
+      <h3>"Conscience is an opened wound, only the truth can heal it!"</h3>
+      <p className="hausa">"Ba ruwan mu da adini, yare benle ina mutumin ya fito. Wanda ze temaka a nijeriya ne munaso. Chuchi ya yawa akan yare, adini da garin kasa."</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://source.unsplash.com/600x400/?forest"
+      src="https://source.unsplash.com/600x400/?dark"
       alt="Third slide"
     />
 
     <Carousel.Caption>
       <h3>Honourable Leadership</h3>
-      <p>"All that glitters is not gold. Of what gain or benefit it to be rich through crooked means while fellow human beings languish in abject poverty. Public service is a calling to serve humanity, not an avanue to steal from the people.</p>
+      <p>My country people. Abeg make we no allow dis politicians use tribe, religion, abi where dem born person for we country de cheat us. We be one people.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://source.unsplash.com/600x400/?birds"
+      src="https://source.unsplash.com/600x400/?grey"
       alt="Third slide"
     />
 
