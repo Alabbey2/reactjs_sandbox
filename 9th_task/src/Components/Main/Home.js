@@ -24,7 +24,7 @@ const Home = () => {
     
     <Section>Inciteful</Section>
     <Section>Simple Language</Section>
-    <Section>Analytic</Section>
+    <Section>Analytical</Section>
     <Section>Educative</Section>
     
     </div>

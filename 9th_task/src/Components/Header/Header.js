@@ -13,8 +13,9 @@ align-items: center;
 `;
 
 const Header = () => {
+  
   return (
-    <Heading>
+    <Heading className="header" id="headers">
       <BrandName/>
       <Nav />
     </Heading>

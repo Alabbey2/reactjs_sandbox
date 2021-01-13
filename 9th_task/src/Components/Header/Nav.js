@@ -17,18 +17,18 @@ display: inline-block;
 const Nav = () => {
     return (
       <nav>
-            <Menu>
-                <MenuLi>
+            <Menu className="menu">
+                <MenuLi className="menuli">
                     <Button variant="contained" color="secondary">
                         <Link to="/" >Home</Link>
                     </Button>
                 </MenuLi>
-                <MenuLi>
+                <MenuLi className="menuli">
                     <Button variant="contained" color="secondary">
                         <Link to="/blog" >Blog</Link>
                     </Button>
                 </MenuLi>
-                <MenuLi>
+                <MenuLi className="menuli">
                     <Button variant="contained" color="secondary">
                         <Link to="/new_post" >New Post</Link>
                     </Button>

@@ -14,6 +14,11 @@ a {
   text-decoration: none;
   font-variant: small-caps;
 }
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  
+}
 
 .postData-content {
   overflow: hidden;
@@ -45,6 +50,11 @@ a {
 .btn-wrapper .btn:hover {
   box-shadow: 0 0 5px #333;
 }
+.blogcard-wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
 
 .btn-wrapper {
   display: flex;
@@ -52,7 +62,8 @@ a {
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
-  margin-top: 1rem;
+  max-width: 1200px;
+  margin: 1rem auto;
 }
 
 .newPost {
@@ -61,12 +72,104 @@ a {
 
 .carousel-item {
   width: inherit;
-  height: 60vh;
-  margin: 2rem 0;
+  
 }
 .carousel-caption h3 {
   font-size: 3rem;
+  padding-bottom: 13rem;
 }
 .carousel-caption p {
   font-size: 2rem;
+  padding-bottom: 10rem;
 }
+
+.header.fixed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+  width: 100%;
+  background-color: transparent;
+}
+
+/* .car {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+/* @media (min-width: 320px) {
+  .header {
+    display: block!important;
+   }
+   .brand-name h2 {
+     text-align: center;
+     font-size: 3rem;
+   }
+   .brand-name span {
+     text-align: center;
+     font-size: 1.2rem;
+   }
+  .menu {
+    display: inline-block !important;
+    justify-content: center;
+  }
+  .menuli a {
+      display: block;
+      width: 230px;
+      padding: .2rem;
+  }
+  
+  .btn-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .btn-wrapper .btn {
+    display: block;
+    width: 100%;
+  }
+  .carousel-item {
+    width: inherit;
+    
+    margin: 1rem 0;
+  }
+   .carousel-caption h3 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 2rem;
+  } 
+}
+@media (max-width: 600px) {
+  .header {
+    display: block!important;
+   }
+   .brand-name h2 {
+     text-align: center;
+     font-size: 4rem;
+   }
+   .brand-name span {
+     
+     font-size: 1.4rem;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+   }
+  .menu {
+    display: inline-block !important;
+    justify-content: center;
+  }
+  .menuli a {
+      display: block;
+      width: 520px;
+      padding: .7rem;
+      font-size: 1.2rem;
+  }
+  
+  .btn-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .btn-wrapper .btn {
+    display: block;
+    width: 100%;
+  } */
