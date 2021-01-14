@@ -13,7 +13,7 @@ const FooterStyle = styled.footer`
 function Footer() {
     return (
         <FooterStyle>
-          <p>&copy; copyright  - React Final Project. Abiodun Alabi BC Helsinki, 2020. </p> 
+          <p>&copy; copyright  - React Final Project. Abbey Alabi BC Helsinki, 2020. </p> 
         </FooterStyle>
     )
 }
